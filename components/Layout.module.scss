@@ -1,0 +1,31 @@
+.navbar {
+  background-color: #203040;
+  & a {
+    color: #fff;
+    margin-left: 10px;
+  }
+}
+
+.navbarButton {
+  color: '#ffffff';
+  text-transform: initial;
+}
+
+.main {
+  min-height: 80vh;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.grow {
+  flex-grow: 1;
+}
